@@ -72,9 +72,23 @@ h1, h2, h3{
   color: #555;
 }
 
+.btn{
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0.5em;
+}
+
+.btn-primary{
+  background-color: #fff;
+  border-radius: 10em;
+}
+
 /* #################### Header styling #################### */
 
 header{
+  position: relative;
   height: 95vh;
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../Images/header-image.jpg);
   background-position: center;
@@ -83,7 +97,6 @@ header{
 }
 
 .navbar{
-  border: 2px solid white;
   padding: 1rem;
 }
 
@@ -124,4 +137,60 @@ header{
   content: "";
   display: block;
   clear: both;
+}
+
+/* #################### Header-content styling #################### */
+
+.header-content{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+}
+
+.header-content h1{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.header-content p{
+  text-transform: uppercase;
+}
+
+/* #################### Showcase-section styling #################### */
+.showcase{
+  background: #ddd;
+  padding: 10rem 0;
+}
+
+.row{
+  height: 350px;
+  border: 3px solid red;
+}
+
+.row1{
+  margin-bottom: 10rem;
+}
+
+.row1 .img-box, .row2 .text-box{
+  float: left;
+  width: 50%;
+}
+
+.row2 .img-box, .row1 .text-box{
+  float: left;
+  width: 50%;
+}
+
+.row .img-box{
+  border: 2px solid blue;
+  height: 100%;
+}
+
+.row .text-box{
+  border: 2px solid blueviolet;
+  padding: 3rem;
+  height: 100%;
 }

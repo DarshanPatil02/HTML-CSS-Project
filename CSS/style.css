@@ -398,7 +398,6 @@ header{
 
 .cta-banner-right{
   float: right;
-  width: 40%;
 }
 
 .cta-banner::after{
@@ -425,3 +424,88 @@ header{
   color: #f4f4f4;
 }
 
+/* #################### Contact Page Styling #################### */
+.contact-form{
+  padding: 5rem 0;
+  font-size: 2rem;
+  background: #f7f7f7;
+}
+
+
+.form-wrapper .company-address{
+  height: 760px;
+  background: #fff;
+  float: left;
+  width: 49%;
+}
+
+.form-wrapper h2{
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
+.form-wrapper .address-group{
+  margin-bottom: 3rem;
+}
+
+.form-wrapper .company-address img{
+  min-width: 90%;
+  width: 90%;
+  min-height: 30rem;
+  object-fit: cover;
+  object-position: right;
+}
+
+.form-wrapper::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* #################### Form Styling #################### */
+.form-wrapper .form{
+  height: 760px;
+  font-size: 1.6rem;
+  background: #fff;
+  float: right;
+  width: 49%;
+  padding: 1rem;
+}
+
+.form h1::after{
+  content: '';
+  display: block;
+  width: 100%;
+}
+
+.form-wrapper label{
+  display: block;
+}
+
+.form-wrapper .form input{
+  display: block;
+  padding: 0.3rem;
+  width: 100%;
+}
+
+.form-wrapper .form .form-group{
+  margin-bottom: 1.2rem;
+}
+
+.form-wrapper .form label::after{
+  content: "* ";
+  color: #e63946 ;
+}
+
+.form-btn{
+  display: block;
+  margin: 0 auto;
+  padding: 0.5em 3em;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  background: #e63946;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
